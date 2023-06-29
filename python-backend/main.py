@@ -23,4 +23,5 @@ def hello():
         final_text += time_stamp["text"]
         final_text += " "
 
-    return {"Text": final_text, "Summary": "In Progress"}
+    return {"Text": final_text, "Summary": "This is a summary", "Important sentences": "These are some important sentences",
+            "Keywords": ["Keyword 1", "keyword 2"], "Emotion": "Random Emotion", "Learnability Score": 50}
